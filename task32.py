@@ -14,5 +14,5 @@ b = int(input("До: "))
 arr2 = []
 for i in range(len(arr)):
     if arr[i] >= a and arr[i] <= b:
-        arr2.append(arr[i])
+        arr2.append(i)
 print(arr2)
